@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: -apple-system, SFProText, Helvetica Neue, sans-serif;
+    font-size: 14px;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.enust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 56px;
+}
+
+.giris {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 488px;
+    margin: 0 auto;
+}
+
+.ickısım,
+.sosyal-medya {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    max-width: 472px;
+    width: 100%;
+    margin: 0 auto;
+    color: #484848;
+}
+
+.butonkapsam {
+    display: inline-flex;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 2px solid #eee;
+}
+
+#girisyap {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#uyeol {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0;
+    flex-direction: row;
+}
+
+#uyeol:hover {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.butonlar {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -.32px;
+    color: #484848;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 27px;
+    cursor: text;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.32px;
+    line-height: 1.5;
+    border: 2px solid rgb(238, 238, 238);
+}
+
+#buton {
+    width: 100%;
+    background-color: rgb(255, 96, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#sifremiunuttum {
+    display: block;
+    color: rgb(255, 96, 0);
+    ;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.sosyal-medya {
+    background: url(/img/ae12e00f172ca6ea478c0efda6f6b828.svg);
+    background-repeat: no-repeat;
+    padding: 32px;
+}
+
+#sosyal {
+    text-align: center;
+    font-weight: 600;
+    color: #484848;
+    font-size: 20px;
+}
+
+p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -.28px;
+    text-align: center;
+    color: #484848;
+}
+
+.butonv2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.butonlarv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid rgb(209, 209, 209);
+    cursor: pointer;
+    width: 100%;
+    padding: 14px 5px;
+    margin: 0 5px;
+    font-size: 12px;
+    line-height: 2px;
+    font-weight: 500;
+    text-align: center;
+    color: #484848;
+}
+
+.google {
+    margin-top: 3px;
+    margin-left: 3px;
+    letter-spacing: 1px !important;
+    font-size: 8px !important;
+    font-weight: 500 !important;
+}
+
+.butonlarv2:hover {
+    color: rgb(255, 96, 0);
+}
+
+#buton:hover {
+    background: rgb(207, 79, 0);
+    transition: background 0.2s ease-in;
+}
+
+#sifremiunuttum:hover {
+    color: rgba(207, 79, 0, 0.7);
+}
+
+i {
+    font-size: 30px;
+    margin-right: 5px;
+    color: #484848;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#guvenli {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+span {
+    color: #439e4a;
+    margin-left: 11px;
+}
+
+#copyright {
+    color: #646464;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 11px !important;
+}
+
+.plchldr1 {
+    background-color: rgb(231, 228, 228);
+}
+
+.footer-txt {
+    font-family: Helvetica Neue, sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 13px;
+    /* letter-spacing: unset; */
+    line-height: 12px;
+    /* margin: 6px 6px 6px 6px; */
+    font-weight: bold !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
