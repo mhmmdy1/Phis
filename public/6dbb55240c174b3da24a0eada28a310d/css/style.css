@@ -1,0 +1,115 @@
+.google {
+    border: 2px solid black;
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+    font-size: 15px;
+    color: #202124;
+    border: 2px solid #e5e5e5;
+}
+
+#signIn {
+    font-size: 24px;
+    color: #202124;
+}
+
+#toContinue {
+    font-size: 16px;
+    color: #202124;
+    padding-top: -200px;
+}
+
+#email {
+    height: 60px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 1em;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+#forGotEmail {
+    text-decoration: none;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#forGotEmail a:hover {
+    text-decoration: none;
+}
+
+#lowerPart {
+    margin-right: 14px;
+    margin-top: 30px;
+    color: #5f6368;
+    padding-bottom: 3px;
+    padding-top: 9px;
+    color: #5f6368 !important;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin-top: 32px;
+    box-sizing: inherit;
+    display: block;
+}
+
+#createAccount {
+    text-decoration: none;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 80px;
+}
+
+#createAccount a:hover {
+    text-decoration: none;
+}
+
+#learnMore {
+    text-decoration: none;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#learnMore a:hover {
+    text-decoration: none;
+}
+
+#language {
+    font-size: 12px;
+    margin-left: 540px;
+    margin-right: 180px;
+    border: opx solid #f2f2f2;
+    list-style-type: none;
+}
+
+#help:hover {
+    text-decoration: none;
+}
+
+#privacy:hover {
+    text-decoration: none;
+}
+
+#terms:hover {
+    text-decoration: none;
+}
+
+select {
+    border: none;
+}
+
+#btnNext {
+    margin-right: 30px;
+    width: 70px;
+    height: 38px;
+}
+
+#footr {
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.lowerPart {}

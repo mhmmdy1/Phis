@@ -1,0 +1,45 @@
+
+<!-- saved from url=(0037)https://n11-core.cbot.ai/localstorage -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+        
+        window.addEventListener("message", messageHandler);
+        function messageHandler(event) {
+            // console.log("CBOT LS IFRAME",event.origin, event.data);
+            /* if (!domains.includes(event.origin))
+                return; */
+
+            if (event.data.action == 'save') {
+                try {
+                    window.localStorage.setItem(event.data.key, JSON.stringify(event.data.value))
+
+                } catch (err) {
+
+                }
+            } else if (event.data.action == 'get') {
+                var value = null;
+                try {
+                    value = window.localStorage.getItem(event.data.key);
+                    value = JSON.parse(value);
+                } catch (err) {
+
+                }
+                event.source.postMessage({
+                    action: 'returnData',
+                    key: event.data.key,
+                    value: value
+                }, '*');
+
+                /* console.log({
+                    action: 'returnData',
+                    key: event.data.key,
+                    value: value
+                }) */
+
+
+            }
+        }
+    </script>
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+
+<body></body></html>
