@@ -1,0 +1,415 @@
+html {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+
+/* Out Space Codes */
+
+.m-a {
+    margin: auto;
+}
+
+.m {
+    margin: 1rem;
+}
+
+.m-right {
+    margin-right: 1rem;
+}
+
+.m-bot {
+    margin-bottom: 0.2rem;
+}
+
+.m-top {
+    margin-top: -1.5rem;
+}
+
+.m-left {
+    margin-left: 1rem;
+}
+
+
+/* Scale 2 Out Space Codes */
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-right-2 {
+    margin-right: 2rem;
+}
+
+.m-bot-2 {
+    margin-bottom: 2rem;
+}
+
+.m-top-2 {
+    margin-top: 2rem;
+}
+
+.m-left-2 {
+    margin-left: 2rem;
+}
+
+
+/* Scale 3 Out Space Codes */
+
+.m-3 {
+    margin: 3rem;
+}
+
+.m-right-3 {
+    margin-right: 3rem;
+}
+
+.m-bot-3 {
+    margin-bottom: 3rem;
+}
+
+.m-top-3 {
+    margin-top: 3rem;
+}
+
+.m-left-3 {
+    margin-left: 3rem;
+}
+
+
+/* İn Space Codes */
+
+.p {
+    padding: 1rem;
+}
+
+.p-top {
+    padding-top: 1rem;
+}
+
+.p-left {
+    padding-left: 1rem;
+}
+
+.p-bot {
+    padding-bottom: 1rem;
+}
+
+.p-right {
+    padding-right: 1rem;
+}
+
+
+/* Scale 2 İn Space Codes */
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-top-2 {
+    padding-top: 2rem;
+}
+
+.p-left-2 {
+    padding-left: 2rem;
+}
+
+.p-bot-2 {
+    padding-bottom: 2rem;
+}
+
+.p-right-2 {
+    padding-right: 2rem;
+}
+
+
+/* Scale 3 İn Space Codes */
+
+.p-3 {
+    padding: 3rem;
+}
+
+.p-top-3 {
+    padding-top: 3rem;
+}
+
+.p-left-3 {
+    padding-left: 3rem;
+}
+
+.p-bot-3 {
+    padding-bottom: 3rem;
+}
+
+.p-right-3 {
+    padding-right: 3rem;
+}
+
+
+/* Border Codes */
+
+.border-n {
+    border: none;
+}
+
+.border {
+    border: 0.1rem solid black;
+}
+
+.border-dashed {
+    border: 0.1rem dashed black;
+}
+
+.border-dotted {
+    border: 0.1rem dotted black;
+}
+
+.border-double {
+    border: 0.4rem double black;
+}
+
+
+/* Border Codes Scale 2 */
+
+.border-2 {
+    border: 0.2rem solid black;
+}
+
+.border-dashed-2 {
+    border: 0.2rem dashed black;
+}
+
+.border-dotted-2 {
+    border: 0.2rem dotted black;
+}
+
+.border-double-2 {
+    border: 0.6rem double black;
+}
+
+
+/* Border Codes Scale 3 */
+
+.border-3 {
+    border: 0.3rem solid black;
+}
+
+.border-dashed-3 {
+    border: 0.3rem dashed black;
+}
+
+.border-dotted-3 {
+    border: 0.3rem dotted black;
+}
+
+.border-double-3 {
+    border: 0.8rem double black;
+}
+
+
+/* Border Places */
+
+.border-t {
+    border-top: 0.1rem solid black;
+}
+
+.border-l {
+    border-left: 0.1rem solid black;
+}
+
+.border-b {
+    border-bottom: 0.1rem solid black;
+}
+
+.border-right {
+    border-right: 0.1rem solid black;
+}
+
+
+/* Border Places Scale 2 */
+
+.border-t-2 {
+    border-top: 0.2rem solid black;
+}
+
+.border-l-2 {
+    border-left: 0.2rem solid black;
+}
+
+.border-b-2 {
+    border-bottom: 0.2rem solid black;
+}
+
+.border-right-2 {
+    border-right: 0.2rem solid black;
+}
+
+
+/* Border Radius */
+
+.border-r-c {
+    border-radius: 50%;
+}
+
+.border-r-n {
+    border-radius: 1rem;
+}
+
+.border-r-s {
+    border-radius: 0.5rem;
+}
+
+.border-r-m {
+    border-radius: 1.5rem;
+}
+
+.border-r-l {
+    border-radius: 2rem;
+}
+
+
+/* Font-Size */
+
+.fs-s {
+    font-size: 1.3rem;
+}
+
+.fs-m {
+    font-size: 1.5rem;
+}
+
+.fs-x {
+    font-size: 1.7rem;
+}
+
+.fs-xl {
+    font-size: 2rem;
+}
+
+
+/* Links Decoration */
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Float */
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+
+/* Displaf Functions */
+
+.dp-b {
+    display: block;
+}
+
+.dp-c {
+    display: contents;
+}
+
+.dp-f {
+    display: flex;
+}
+
+.dp-fb {
+    display: flexbox;
+}
+
+.dp-fr {
+    display: flow-root;
+}
+
+.dp-g {
+    display: grid;
+}
+
+.dp-i {
+    display: inline;
+}
+
+.dp-ib {
+    display: inline-block;
+}
+
+.dp-if {
+    display: inline-flex;
+}
+
+.dp-ifb {
+    display: inline-flexbox;
+}
+
+.dp-it {
+    display: inline-table;
+}
+
+.dp-li {
+    display: list-item;
+}
+
+
+/* Text-Align  */
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.ta-rx {
+    text-align: right;
+}
+
+.ta-j {
+    text-align: justify;
+}
+
+
+/* Positions */
+
+.position-a {
+    position: absolute;
+}
+
+.position-f {
+    position: fixed;
+}
+
+.position-r {
+    position: relative;
+}
+
+.position-s {
+    position: sticky;
+}
